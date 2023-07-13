@@ -30,7 +30,6 @@ SECRET_KEY = os.environ.get("SECRET_KEY", DEFAULT_SECRET_KEY)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-print("ALLOWED HOSTS", os.environ.get("ALLOWED_HOSTS"))
 
 ALLOWED_HOSTS = os.environ.get("ALLOWED_HOSTS").split(',')
 
