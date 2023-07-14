@@ -15,7 +15,7 @@ class Author(models.Model):
 
 class Podcast(models.Model):
     name = models.CharField(max_length=200)
-    author = models.ManyToManyField(Author)
+    author = models.ManyToManyField(Author, blank=True)
     language = models.ForeignKey(Language, on_delete=models.CASCADE)
 
     def __str__(self):
@@ -27,7 +27,7 @@ class Episode(models.Model):
     podcast = models.ForeignKey(Podcast, on_delete=models.CASCADE)
     duration = models.CharField(max_length=10)
     listen_link = models.URLField()
-    is_new = models.BooleanField()
+    is_new = models.BooleanField(default=False)
     
     def __str__(self):
         return f"{self.episode_number}: {self.title[:15]}... ({self.podcast})"
