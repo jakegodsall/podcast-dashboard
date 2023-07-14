@@ -26,10 +26,13 @@ Podcast Dashboard's tech stack spans across several modern and efficient technol
 
 The Podcast Dashboard project is continually evolving, with plans for additional features and enhancements. I aim to make this application more intuitive and useful for individuals who, like me, are using podcasts as a language-learning tool.
 
+## License
+
+Distributed under the MIT License. See LICENSE for more information.
+
 ## Contributing
 
 While this project is primarily a personal undertaking, constructive feedback and suggestions are always welcome. Feel free to open an issue or submit a pull request.
-Conclusion
 
 Podcast Dashboard is a labor of love, a testament to my passion for programming and language learning. It represents an important step in my journey as a full-stack developer.
 
